@@ -28,7 +28,9 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   devtools_device_preview:
-    path: ../
+    git:
+      url: https://github.com/erabti/flutter_device_preview.git
+      path: ./devtools_device_preview
   flutter:
     sdk: flutter
 
