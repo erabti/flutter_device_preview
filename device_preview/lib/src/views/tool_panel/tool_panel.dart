@@ -79,7 +79,7 @@ class _ToolPanel extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          'Device preview',
+          'LS-Delos',
           style: theme.textTheme.headline6?.copyWith(
             fontSize: 14,
             fontWeight: FontWeight.bold,
